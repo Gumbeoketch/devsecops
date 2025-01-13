@@ -73,7 +73,8 @@ systemctl enable docker
 
 
 echo ".........----------------#################._.-.-Java and MAVEN-.-._.#################----------------........."
-apt install openjdk-11-jdk maven -y
+sudo apt update
+sudo apt install fontconfig openjdk-17-jre maven -y
 java -version
 mvn -v
 
